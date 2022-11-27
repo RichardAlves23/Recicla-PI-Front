@@ -4,7 +4,7 @@ import Container from '@mui/material/Container';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from '../home';
-import Materials from '../materials';
+import Materials from '../materials/list';
 import CollectionPoints from '../collectionPoints';
 function Base(){
 
