@@ -15,7 +15,7 @@ function Base(){
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<Home />}/>
-                        <Route path="/materials" element={<Materials />} />
+                        <Route path="/materials/:id" element={<Materials />} />
                         <Route path="/collectionpoints" element={<CollectionPoints />} />
                     </Routes>
                 </BrowserRouter>
